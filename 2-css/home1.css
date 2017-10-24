@@ -1,0 +1,482 @@
+
+		#topbar{
+			 
+			 width:1350px;
+			 margin:0 0 0 0;
+			 height:40px;
+			 background-color: #636665;
+		}
+		.top{
+			 
+			 font-weight: 10%;
+			 font-family: Gnuolane Rg;
+			
+			color: #2CC9B1;
+			text-align:center;
+			position: relative;
+			top: 10px;
+			
+		}
+		#header{
+		 width: 1350px;
+		height: 170px;
+		 }
+		 #header-image {
+		
+	
+		 }
+		.mark{
+		 width:1350px;
+		 height: 35px;
+		 background-color: #636665;
+		 
+		}
+		.marqee_div a{
+		color: #2CC9B1;
+		position: relative;
+		top:4px;
+		border-bottom-color: #636665;
+		}
+		
+		.marqee_div a:hover{
+		color: #27E8C7;
+		text-decoration: none;
+		}
+		
+		.clear{
+			clear:both;
+		}
+		
+		#menu-bar-2-container{
+	 background-color: #898989;
+	 width:1350px;
+	 float:left-side;
+	 
+	}
+	#menu-bar-2{
+		width: 1350px;
+		margin:0 auto;
+		height:40px;
+		border-top-color :#FFFFFF;
+		margin-left:20px;
+	}
+	
+	
+	#menu-bar-2 a{
+		color:#EAEAEA;
+		text-decoration: none;
+		text-color: #646566;
+		padding: 0 10px;
+		border-right: 1px solid #2EE4EA;
+		font-size:18px;
+		position: relative;
+		top:10px;
+		
+		
+	}
+	#menu-bar-2 a:hover{
+		text-decoration: none ;
+		color: #2EE4EA;
+		
+	}
+	
+		.no-border{
+	border:none !important;
+	}
+	
+	#down-arrow{
+		width: 20px;
+		margin-top:3px;
+	}
+	
+	#page-container{
+		height: autocomplete;
+		width: 1000px;
+		margin: 0 auto;
+	}
+	
+	#foot{
+		background-color: #353630;
+		font-weight:bold;
+		font-size: 20px;
+		height:160px;
+		}
+	#foot a:hover{
+		text-decoration:none;
+		color:#1B9689;
+	}
+	#foot a{
+		text-decoration:none;
+		color: #30EBF2;
+	}
+	.foot-color{
+
+		color: #1B9689;
+	}
+		
+	h2{
+		font-weight: normal;
+		marin-top: 40px;
+		font-size: 20 px;
+		border-bottom: 2px solid #05A892;
+		width: 110 px;
+		
+	}
+	h3 a{
+		color:black;
+		font-size:30px;
+		text-decoration: none;
+	}
+	h3 a:hover{
+		color:#1167a8;
+		
+	}
+	.article-summary{
+		color:#5a5a5a;
+		width:310px;
+		float:left;
+	}
+	.clock{
+	
+		height:20px;
+		position:relative;
+		top:2px;
+	}
+	.id-link {
+		text-decoration:none;
+		color:#a91717;
+		border-left:2px solid grey;
+		padding-left:10px;
+		
+	}
+	.article-summary a:hover {
+		color: #30EBF2;
+		text-decoration: none;
+		
+	}
+	.article-summary a {
+	text-decoration: none;
+	color: #049E81;
+	}
+	
+	.date{
+	 padding-right:15px
+	 
+	}
+	
+	.article-container{
+		float:left;
+		width:670px;
+		border-right:1px solid #CCCCCC;
+		padding-right: 20px;
+	}
+	.main-article-image{
+		 width:250px;
+		 height:180px;
+		
+		 margin-left:40px;
+	}
+	.article-hr{
+		border-top: 2px solid #05A892;
+		width:50px;
+	}
+	.article-link{
+		color:black;
+		text-decoration:none;
+	
+	}
+	.bg{
+		background-color: #D9DBDA;
+	
+	}
+	#watch-listen{
+		margin-top:-550px;
+		margin-right: 200px;
+		width:200px;
+		float:right;
+	}
+	h4{
+		font-weight:normal;
+		font-size:20px;
+	}
+	.article-side-image{
+		float:left;
+		width: 85px;
+		height:60px;
+		margin-right:10px;
+	}
+	.watch-listen-link{
+		text-decoration:none;
+		color:black;
+		font-weight:bold;
+		font-size: 18px;
+	}
+	.watch-listen-link:hover{
+		color:#1167a8;
+	}
+	.side-article{
+		float:right;
+		width:250px;
+		position:relative;
+		top:-250px;
+	}
+	.no-border{
+		border-left:none;
+		padding:0px;
+	}
+	.border-right{
+		border-right: 1px solid #CCCCCC;
+	
+	}
+	#slide{
+		width: 1000px;
+		height: autocomplete;
+		margin: 0 auto;
+	}
+	
+	#slide-heading{
+		font-weight: bold;
+		font-family: Flamante-Serif-FFP;
+		marin-top: 50px;
+		margin-left: 100px;
+		margin-right: 100px;
+		font-size: 25px;
+		border-bottom: 2px solid #05A892;
+		border-top: 2px solid #05A892;
+		width: 110 px;
+		height: 30px;
+		
+	}
+	* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+/*Button Styling*/
+
+.btnHead{
+	text-align:center;
+	font-weight: bold;
+	font-family: Flamante-Serif-FFP;
+	font-size: 25px;
+	
+	
+}
+/* The modal button*/
+
+#myBtn{
+	display: inline-block;
+	padding: 15px 25px;
+	font-size: 24px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #05A892;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+	position: relative;
+	left: 600px;
+	border-bottom: 2px solid #05A892;
+	
+}
+
+#myBtn : hover{background-color:
+#3e8e41}
+
+#myBtn : active{
+background-color: #3e8e41;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.stats {
+ border-bottom: 2px solid #05A892;
+ font-size: 25px;
+ font-weight:bold;
+ margin-left: 100px;
+ margin-right: 100px;
+ margin-top:40px;
+}
+	.stats-section{
+		width: 250px;
+		height:100px;
+		border: 2px solid #05A892;
+		margin-left: 100px;
+		margin-bottom: 0px;
+		
+	}
+	.num{
+	 font-weight: bold;
+	 font-size: 45px;
+	 text-color: #05A892;
+	 text-align: center;
+	 position: relative;
+	 top: -25px;
+	}
+	.numtext{
+		text-align:center;
+		position: relative;
+	 top: -70px;
+	}
+	 
+	 
+	 		.stats-section{
+			float: left;
+			height: 100%;
+		}
+		
+		.stats-menu{
+		font-weight:bold;
+			font-size:90%;
+			padding: 13px 15px 0 15px;
+			height:120px;
+			
+		}
+		
+		.stat1{
+			margin-left: 45px;
+		}
+		.after-text{
+		font-weight:bold; 
+		font-family:ZingSansRustLDemo-Base; 
+		font-size: 20px; 
+		text-align:center;
+		}
+
+		#page-wh{
+			width: 100%;
+		height:100%;
+		margin: 0px 0px 0px 0px ;
+
+		}
